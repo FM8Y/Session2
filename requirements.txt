@@ -1,5 +1,5 @@
 asyncio
 requests
-pyrogram
-pyromod
+pyrogram==2.0.56
+pyromod==1.5
 telethon
