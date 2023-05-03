@@ -29,17 +29,17 @@ from telethon.errors import (
 )
 
 
-api_hash = "7e47f9b25fe713b17f0b618276567a58"
-api_id = int("20599316")
-token = "6000113934:AAET8Nh6ZcENrTRUX9ps7LffXVUujth1Ga8"
+api_hash = "" #ايبي هاش هنا
+api_id =  #ايبي اي دي هنا
+token = "" #توكن البوت هنا
 
 app = Client(
-  name="@q444x - stringsession",
+  name="@q444x - @N0040 - stringsession",
   api_id=api_id, api_hash=api_hash,
   bot_token=token, in_memory=True
 )
-CHANNEL = "Y8840"
-bot_token = "6203797579:AAGIrEe7xzwl2HFtt8QHEjupleZMeVvpW4k"
+CHANNEL = "Y8840" # قناه الاشتراك 
+bot_token = "" # بوت التوكن المستخدم في الاشتراك
 @app.on_message(filters.command("start") & filters.private)
 async def start(client: Client, message: Message):
        m = message.chat.id
@@ -79,7 +79,7 @@ async def generator_and_about(app,m):
       text += "𝐩𝐫𝐨𝐠𝐫𝐚𝐦𝐦𝐢𝐧𝐠 𝐥𝐚𝐧𝐠𝐮𝐚𝐠𝐞: 𝐩𝐲𝐭𝐡𝐨𝐧"
       text += f"\n 𝐩𝐲𝐫𝐨𝐠𝐫𝐚𝐦 {v}"
       text += f"\n 𝐭𝐞𝐥𝐞𝐭𝐡𝐨𝐧 {v2}"
-      text += f"\n\n 𝐜𝐡𝐚𝐧𝐧𝐞𝐥 : [𝐦𝐲 𝐥𝐨𝐯𝐞](t.me/FFAARRSS1)"
+      text += f"\n\n 𝐜𝐡𝐚𝐧𝐧𝐞𝐥 : [𝐦𝐲 𝐥𝐨𝐯𝐞](t.me/N0040)"
       await m.reply(text, quote=True)
    
    
@@ -143,7 +143,7 @@ async def generator_and_about(app,m):
        string_session = await c.export_session_string()
        await rep.delete()
        
-       await c.send_message('me', f' 𝐬𝐮𝐜𝐜𝐞𝐬𝐬𝐟𝐮𝐥𝐥𝐲 𝐠𝐞𝐧𝐞𝐫𝐚𝐭𝐞𝐝 𝐩𝐲𝐫𝐨𝐠𝐫𝐚𝐦 {v} 𝐬𝐭𝐫𝐢𝐧𝐠 𝐬𝐞𝐬𝐬𝐢𝐨𝐧\n\n`{string_session}`\n\n 𝐜𝐡𝐚𝐧𝐧𝐞𝐥 : [𝐦𝐲 𝐥𝐨𝐯𝐞](t.me/FFAARRSS1)\n 𝐠𝐞𝐧𝐞𝐫𝐚𝐭𝐞𝐝 𝐛𝐲 : @Fa_r_es_1')
+       await c.send_message('me', f' 𝐬𝐮𝐜𝐜𝐞𝐬𝐬𝐟𝐮𝐥𝐥𝐲 𝐠𝐞𝐧𝐞𝐫𝐚𝐭𝐞𝐝 𝐩𝐲𝐫𝐨𝐠𝐫𝐚𝐦 {v} 𝐬𝐭𝐫𝐢𝐧𝐠 𝐬𝐞𝐬𝐬𝐢𝐨𝐧\n\n`{string_session}`\n\n 𝐜𝐡𝐚𝐧𝐧𝐞𝐥 : [𝐦𝐲 𝐥𝐨𝐯𝐞](t.me/N0040)\n 𝐠𝐞𝐧𝐞𝐫𝐚𝐭𝐞𝐝 𝐛𝐲 : @N0040')
        await c.disconnect()
        
        await app.send_message(
@@ -203,7 +203,7 @@ async def generator_and_about(app,m):
        string_session = c.session.save()
        await rep.delete()
        
-       await c.send_message('me', f' 𝐬𝐮𝐜𝐜𝐞𝐬𝐬𝐟𝐮𝐥𝐥𝐲 𝐠𝐞𝐧??𝐫𝐚𝐭𝐞𝐝 𝐭𝐞𝐥𝐞𝐭𝐡𝐨𝐧 {v2} 𝐬𝐭𝐫𝐢𝐧𝐠 𝐬𝐞𝐬𝐬𝐢𝐨𝐧\n\n`{string_session}`\n\n 𝐜𝐡𝐚𝐧𝐧𝐞𝐥 : [𝐦𝐲 𝐥𝐨𝐯𝐞](t.me/FFAARRSS1)\n 𝐠𝐞𝐧𝐞𝐫𝐚𝐭𝐞𝐝 𝐛𝐲 : @Fa_r_es_1 ')
+       await c.send_message('me', f' 𝐬𝐮𝐜𝐜𝐞𝐬𝐬𝐟𝐮𝐥𝐥𝐲 𝐠𝐞𝐧??𝐫𝐚𝐭𝐞𝐝 𝐭𝐞𝐥𝐞𝐭𝐡𝐨𝐧 {v2} 𝐬𝐭𝐫𝐢𝐧𝐠 𝐬𝐞𝐬𝐬𝐢𝐨𝐧\n\n`{string_session}`\n\n 𝐜𝐡𝐚𝐧𝐧𝐞𝐥 : [𝐦𝐲 𝐥𝐨𝐯𝐞](t.me/N0040)\n 𝐠𝐞𝐧𝐞𝐫𝐚𝐭𝐞𝐝 𝐛𝐲 : @N0040 ')
        await c.disconnect()
        
        await app.send_message(
