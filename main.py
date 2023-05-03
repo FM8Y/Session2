@@ -57,7 +57,7 @@ async def start(client: Client, message: Message):
        else:
          await app.send_message(
       chat_id = message.chat.id,
-      text=f"Hi {message.from_user.mention} \n\n𝐭𝐡𝐢𝐬 𝐛𝐨𝐭 𝐟𝐨𝐫 𝐠𝐞𝐧𝐞𝐫𝐚𝐭𝐞 𝐩𝐲𝐫𝐨𝐠𝐫𝐚𝐦 𝐬𝐭𝐫𝐢𝐧𝐠 𝐬𝐞𝐬𝐬𝐢𝐨𝐧 \n\n- 𝐨𝐰𝐧𝐞𝐫 : @Fa_r_es_1",
+      text=f"Hi {message.from_user.mention} \n\n𝐭𝐡𝐢𝐬 𝐛𝐨𝐭 𝐟𝐨𝐫 𝐠𝐞𝐧𝐞𝐫𝐚𝐭𝐞 𝐩𝐲𝐫𝐨𝐠𝐫𝐚𝐦 𝐬𝐭𝐫𝐢𝐧𝐠 𝐬𝐞𝐬𝐬𝐢𝐨𝐧 \n\n- 𝐨𝐰𝐧𝐞𝐫 : @N0040",
       reply_to_message_id=message.id,
       disable_web_page_preview = True,
       reply_markup = ReplyKeyboardMarkup(
